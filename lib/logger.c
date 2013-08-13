@@ -117,7 +117,7 @@ static int64_t max_logsize = 500 * 1024 * 1024;  /*500MB*/
 static pthread_mutex_t logsize_lock = PTHREAD_MUTEX_INITIALIZER;
 
 /*
- * We need to set default log formatter because collie doesn't want to call
+ * We need to set default log formatter because dog doesn't want to call
  * select_log_formatter().
  */
 static void __attribute__((constructor(65535)))
